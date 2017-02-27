@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+html{color:#333;line-height:1.5}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+html,body{ width:100%;}
+
+body,button,input,select,textarea a{
+	font:12px/1.5  'HiraginoSansGBW3' 'fzlantingheis-el-gbregular'; font-family:  'HiraginoSansGBW3','fzlantingheis-el-gbregular' ;}
+html, body, div, span, applet,
+object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, 
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, embed, figure, figcaption, footer, header, hgroup, menu, nav, 
+output, ruby, section, summary, time, mark, audio, video{ 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:  'HiraginoSansGBW3','fzlantingheis-el-gbregular';
+	}
+fieldset,img,iframe,button,a{border:0;text-decoration:none;font-family:'HiraginoSansGBW3','fzlantingheis-el-gbregular';}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400; font-family: 'HiraginoSansGBW3','fzlantingheis-el-gbregular';}
+table{border-collapse:collapse;border-spacing:0; font-family: 'HiraginoSansGBW3','fzlantingheis-el-gbregular';}
+caption,th{text-align:left}
+input,select,img{vertical-align:middle}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit; font-family:'HiraginoSansGBW3' ,'fzlantingheis-el-gbregular';}
+textarea{resize:none}
+textarea,input{outline:none;}
+ol,ul{list-style:none}
+del{text-decoration:line-through}
+em,i{font-style:normal}
+sup,sub{font-size:100%;vertical-align:baseline}
+input[type=submit],input[type=button],[class^=btn-],button{cursor:pointer}
+[class^=abtn-]{text-decoration:none;}
+input::-moz-focus-inner{border:0;padding:0}
+ input,textarea{color:#000;margin:0;outline:medium none;border:none;}
+ 
+ 
+/*frame*/
+header,footer,middle{ width:100%; min-width:960px;  margin:0 auto; }
+
+
+.mater{ margin:0 auto; }
+.mg-t10{ margin-top:10px;}
+.mg-t15{ margin-top:15px;}
+.mg-t20{ margin-top:20px;}
+.mg-t30{ margin-top:30px;}
+.mg-t50{ margin-top:50px;}
+.mg-r10{ margin-right:10px;}
+.mg-r15{ margin-right:15px;}
+.mg-r20{ margin-right:20px;}
+
+.mg-b10{ margin-bottom:10px;}
+.mg-b15{ margin-bottom:15px;}
+
+
+.pd-top{ padding-top:15px;}
+
+
+.circle5{ -moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+   		 border-radius:5px;}
+.circle8{ -moz-border-radius:8px;
+    	-webkit-border-radius:8px;
+   		 border-radius:8px;}
+	
+.no-circle5{
+	border-top-right-radius:5px; 
+	-moz-border-radius-topright:5px; 
+	-webkit-border-top-right-radius:5px;
+	border-bottom-right-radius:5px; 
+	-moz-border-radius-bottomright:5px; 
+	-webkit-border-bottom-right-radius:5px;
+	box-shadow:2px 0px 1px 1px rgba(0,0,0,0.18);
+	-moz-box-shadow:2px 0px 1px 1px rgba(0,0,0,0.18); 
+	-webkit-box-shadow:2px 0px 1px 1px rgba(0,0,0,0.18);
+		
+	}	
+.triangle{ display:inline-block; width:0;
+			border-right:5px solid transparent;
+			border-left:5px solid transparent;
+			border-top:10px #dbdbdb solid ;
+			border-bottom:0; } 
+.floatl{ float:left;}
+.floatr{ float:right;}
+		 
+
+.clear{clear:both; overflow:hidden; height:1px; zoom:1;}
+
+
+/* Webfont: HiraginoSansGB-W3 */
+@font-face {
+    font-family: 'HiraginoSansGBW3';
+    src: url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W32.eot'); /* IE9 Compat Modes */
+    src: url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W32.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W32.woff') format('woff'), /* Modern Browsers */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W32.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W32.svg#HiraginoSansGB-W3') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: HiraginoSansGB-W3 */
+@font-face {
+    font-family: 'HiraginoSansGBW3';
+    src: url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W33.eot'); /* IE9 Compat Modes */
+    src: url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W33.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W33.woff') format('woff'), /* Modern Browsers */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W33.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/HiraginoSans-GB-W3/HiraginoSansGB-W33.svg#HiraginoSansGB-W3') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: fzlantingheis-el-gbregular */
+@font-face {
+    font-family: 'fzlantingheis-el-gbregular';
+    src: url('../font/webfontkit/_-webfont.eot');
+    src: url('../font/webfontkit/_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/webfontkit/_-webfont.woff2') format('woff2'),
+         url('../font/webfontkit/_-webfont.woff') format('woff'),
+         url('../font/webfontkit/_-webfont.ttf') format('truetype'),
+         url('../font/webfontkit/_-webfont.svg#fzlantingheis-el-gbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
